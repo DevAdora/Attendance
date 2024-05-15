@@ -1,0 +1,60 @@
+@import url("main.css");
+
+.container {
+  width: 100%;
+    display: flex;
+}
+.right-top {
+  width: var(--sidebar-open-width);
+  display: flex;
+  justify-content: start;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.right-top .logo {
+  min-height: 4rem;
+  max-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.right-top .logo img {
+  padding: 5px;
+  object-fit: cover;
+}
+.login-container {
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column; /* Change the direction to column */
+}
+
+.form-input label {
+  margin-bottom: 5px; /* Add some bottom margin to create space between label and input */
+}
+
+.left-container {
+  width: 50%;
+  height: 500px;
+  background-color: white;
+}

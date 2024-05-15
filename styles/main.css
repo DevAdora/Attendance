@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+:root {
+  --sidebar-open-width: 18rem;
+  --sidebar-close-width: 5rem;
+  --navbar-height: 4rem;
+  --m-navbar-height: 4rem;
+}
+
+body {
+  min-height: 100vh;
+  background: #e0e0e0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.section {
+  width: 100%;
+  padding: 2rem;
+  padding-top: var(--navbar-height);
+  padding-bottom: 2rem;
+}
+
+.section-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 0;
+}
+
+.section-title h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #5C2F88;
+}
